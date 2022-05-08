@@ -1,5 +1,10 @@
 package TypeConversionPackage;
 
+/**
+ * 
+ * Java Program to Convert Character Array to String
+ */
+
 public class CharArrayToString {
     public static void main(String[] args) {
         char[] ch= {'A','E','I','O','U'};
