@@ -10,5 +10,6 @@ public class ConditionalStatement {
         int a=sc.nextInt();
         int result=(x>a)?x:a;
         System.out.println(result);
+        sc.close();
     }
 }
