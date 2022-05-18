@@ -1,5 +1,7 @@
 package ArraysPackage;
 
+import java.util.Arrays;
+
 // How we can search from Array by using loop.
 
 import java.util.Scanner;
@@ -8,7 +10,11 @@ public class Search {
 
     public static void main(String[] args) {
 
-        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int[] arr = { 1, 2, 4, 3, 5, 6, 9, 8, 11, 10 };
+        Arrays.sort(arr);
+        for (int index = 0; index < arr.length; index++) {
+            System.out.println(arr[index]);
+        }
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int n = sc.nextInt();
@@ -18,6 +24,8 @@ public class Search {
         } else {
             System.out.println("No");
         }
+        sc.close();
+
     }
 }
 
